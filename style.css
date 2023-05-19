@@ -811,24 +811,33 @@ nav {
     nav {
         width: 100%;
         height: 3rem;
-        padding: 0 1rem;
+        padding: 0 2rem;
         margin: 0 1rem;
     }
-
+    
     .brand-name {
-        width: fit-content;
+        width: 100%;
         margin-right: 0;
+    }
+    
+    .brand-name p{
+        width: fit-content;
+        font-size: 0.8rem;
+        margin-right: 0;
+        width: fit-content;
     }
 
 
     #nav-links {
         width: 100%;
+        display: flex;
+        justify-content: flex-end;
     }
     
     .nav-link {
         width: fit-content;
-        margin: 0 0.5rem;
-        font-size: 0.8rem;
+        margin: 0 .2rem;
+        font-size: 0.75rem;
     }
 
     /* ABOUT SECTION  */
