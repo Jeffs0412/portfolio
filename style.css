@@ -15,11 +15,19 @@ body {
     flex-direction: row;
     flex-flow: row wrap;
     justify-content: center;
+    /* align-items: center; */
     margin: 0;
+    padding: 0;
     /* padding: 5rem; */
     justify-content: space-around;
     box-sizing: border-box;
     background-color: var(--bg-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #home {
@@ -27,7 +35,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
-    width: fit-content;
+    width: auto;
     /* color: var(--font-gray); */
     margin: 5rem;
     padding: 0 5rem;
@@ -46,15 +54,12 @@ body {
     margin: 5rem;
 } */
 
-#greet {
-    /* margin-bottom: 0; */
-    font-size: 1.5rem;
-}
+
 
 #greet p {
-    /* font-weight: bold; */
-    font-family: Poppins, sans-serif;
-
+    font-size: 1.5rem;
+    font-family: Mulish, sans-serif;
+    letter-spacing: 3px;
 }
 
 #name p{
@@ -511,7 +516,16 @@ nav {
 
 @media screen and (max-width: 1200px) {
     body {
-        overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0;
+    /* padding: 5rem; */
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
     }
 
     #home {
@@ -640,8 +654,26 @@ nav {
 }
 
 @media screen and (max-width: 640px) {
+    body {
+        display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100%; */
+    padding: 0;
+    margin: 0;
+    /* padding: 5rem; */
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    }
+
     #home {
-        margin: 1rem;
+        margin: 5rem 0;
+        padding: 0 1rem;
+        height: auto;
+        /* width: auto; */
     }
 
     #home-content {
@@ -677,6 +709,11 @@ nav {
         align-self: center;
         justify-content: center;
         margin: 1rem 0;
+    }
+    
+    #profile-image-mobile img {
+        margin: 1rem 0;
+
     }
 
     /* ABOUT SECTION  */
