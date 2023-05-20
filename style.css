@@ -116,24 +116,76 @@ main {
     /* line-height: 3rem; */
 }
 
+#home-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: green; */
+    width: 30%;
+    margin-top: 3rem;
+}
+
+.home-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    /* box-shadow: 0 1px 10px 1px rgb(29, 28, 28); */
+    border-radius: 37px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 6px 6px 12px #a4a4a4,
+        -6px -6px 12px #ffffff;
+
+    /* margin: 0 1rem; */
+    padding: 0.8rem;
+}
+
+.home-social:hover {
+    text-align:center;
+    opacity: 1;
+    color:#fff;
+    border-radius:50%;
+    animation: bounce .2s infinite alternate;
+  }
+  @keyframes bounce {
+    to { transform: scale(1.05); }
+  }
+
+.home-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    /* color: rgba(44, 38, 38, 0.8); */
+    opacity: 0.8;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.home-social a:hover,
+.home-social a:focus,
+.home-social a:active {
+    filter: contrast(120%);
+    opacity: 1;
+}
+
+.home-social .fa-github:hover {
+    color: black;
+}
+
+.home-social .fa-linkedin:hover {
+    color: #0A66C2;
+}
+
+.home-social .fa-envelope:hover {
+    color: #4285F4;
+}
+
 #profile-image-mobile {
     display: none;
-}
-
-nav {
-    display: flex;
-    width: 100%;
-    padding: 0 5rem;
-    margin: 0 5rem;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.brand-name {
-    width: fit-content;
-    margin-right: 5rem;
-    width: 100%;
-    /* background-color: pink; */
 }
 
 #nav-section {
@@ -143,6 +195,24 @@ nav {
     justify-content: center;
     width: 100%;
 }
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 3rem;
+    margin: 0 5rem;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.brand-name {
+    width: fit-content;
+    margin-left: 2rem;
+    width: 100%;
+    /* background-color: pink; */
+}
+
 
 #nav-section {
     display: flex;
@@ -162,10 +232,10 @@ nav {
 
 #nav-links {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    margin: 0;
     align-items: flex-end;
     width: 100%;
-    /* background-color: pink; */
 }
 
 .nav-link {
@@ -188,7 +258,6 @@ nav {
     color: black;
     filter: contrast(120%);
     font-weight: bolder;
-    /* border-bottom-color: #8f6208; */
 }
 
 .nav-link.active {
@@ -414,25 +483,17 @@ nav {
 }
 
 #contacts {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 7rem 10rem;
+    margin: 7rem 1rem;
     height: fit-content;
-    width: 50%;
-    padding: 2rem;
+    width: 100%;
+    padding: 6rem 15rem;
 }
 
-/* #contacts-container {
-    display: flex;
-    flex-direction: row;
-    margin: 1rem;
-} */
-
-/* #contacts p {
-    font-size: 1.5rem;
-} */
 #contacts-header {
     font-size: 1rem;
     /* margin: 16rem 0 0; */
@@ -440,59 +501,65 @@ nav {
 }
 
 #contacts-container {
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
+    flex-direction: column;
+    /* flex-flow: row wrap; */
     align-items: center;
     /* margin: 1rem; */
     height: fit-content;
-    width: fit-content;
-    padding: 2rem;
+    width: 80%;
+    padding: 2.5rem;
     /* height: fit-content; */
     justify-content: space-evenly;
     border-radius: 37px;
     background: linear-gradient(145deg, #cacaca, #f0f0f0);
     box-shadow: 6px 6px 12px #bebebe,
-        -6px -6px 12px #ffffff;
+    -6px -6px 12px #ffffff;
 }
 
-#illustration {
+
+#contact-container {
+    box-sizing: border-box;
     display: flex;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    margin: 2rem;
-    padding: 1rem;
-}
-
-#illustration img {
-    height: 60%;
-    width: 60%;
+    width: 100%;
+    margin: 1.5rem;
+    /* background-color: green; */
 }
 
 #contact-description {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 3rem;
-    padding: 1rem;
-    font-size: 1rem;
+    flex-direction: row;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 1rem 1rem 0;
+    /* padding: 1rem; */
 }
 
 #contact-description p {
-    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    font-size: 1.5rem;
+    /* padding: 1rem; */
+    margin: 0 1rem 1rem;
     font-family: Poppins, sans-serif;
     color: var(--font-gray);
 }
 
 .contact {
-    height: 250px;
-    width: 300px;
-    margin: 0 2rem 2rem;
-    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    margin: 0 1rem 1rem;
     border-radius: 25px;
     background: linear-gradient(145deg, #cacaca, #f0f0f0);
     box-shadow: 6px 6px 12px #a4a4a4,
-        -6px -6px 12px #ffffff;
+    -6px -6px 12px #ffffff;
 }
 
 .contact-icon .fa-phone {
@@ -507,7 +574,11 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    height: 100%;
 }
+
 
 .social {
     display: flex;
@@ -517,14 +588,21 @@ nav {
     width: 40px;
     border-radius: 50%;
     background-color: transparent;
-    /* box-shadow: 0 1px 10px 1px rgb(29, 28, 28); */
     border-radius: 37px;
     background: linear-gradient(145deg, #cacaca, #f0f0f0);
     box-shadow: 6px 6px 12px #a4a4a4,
         -6px -6px 12px #ffffff;
 
-    margin: 0 1rem;
-    padding: 0.5rem;
+    margin: 0 2rem;
+    padding: 0.8rem;
+}
+
+.social { 
+    transition: all .1s ease-in-out; 
+}
+
+.social:hover { 
+    transform: scale(1.05); 
 }
 
 .social a {
@@ -556,6 +634,10 @@ nav {
 .social .fa-envelope:hover {
     color: #4285F4;
 }
+
+/* #socials div {
+    margin: 1rem 1rem 2rem;
+} */
 
 @media screen and (max-width: 1200px) {
     body {
