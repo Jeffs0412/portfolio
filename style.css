@@ -359,7 +359,7 @@ nav {
 }
 
 .project-link:hover {
-    filter: brightness(150%);
+    filter: contrast(110%);
     transform: scale(1.01);
 }
 
