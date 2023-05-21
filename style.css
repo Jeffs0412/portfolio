@@ -3,7 +3,7 @@
 :root {
     --bg-color: #e0e0e0;
     --font-secondary-color: #616161;
-    --font-primary-color: #313131;
+    --font-primary-color: #3f3c3c;
 }
 
 * {
@@ -70,9 +70,9 @@ main {
 #name p {
     font-size: 3.5rem;
     font-weight: bolder;
-    margin: 0;
+    margin: 1rem 0;
+    color: var(--font-primary-color);
 }
-
 
 #home-slogan .line-1 {
     position: relative;
@@ -80,9 +80,11 @@ main {
     border-right: 2px solid rgba(255, 255, 255, .75);
     font-size: 2rem;
     font-weight: bold;
-    color: var(--font-secondary-color);
+    color: var(--font-primary-color);
     white-space: nowrap;
     overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .anim-typewriter {
@@ -96,7 +98,7 @@ main {
     }
 
     to {
-        width: 14.75em;
+        width: 14.90em;
     }
 }
 
@@ -114,6 +116,7 @@ main {
     font-size: 1.8rem;
     color: var(--font-secondary-color);
     /* line-height: 3rem; */
+    margin-top: 1rem;
 }
 
 #home-socials {
@@ -283,8 +286,9 @@ nav {
 }
 
 #skill-header {
-    font-size: 2rem;
+    /* font-size: 1rem; */
     margin: 6rem 0 0;
+    letter-spacing: 2.5px;
 }
 
 #skills {
@@ -320,7 +324,7 @@ nav {
 }
 
 .skill-content {
-    margin: 1rem;
+    margin: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -373,7 +377,11 @@ nav {
 }
 
 #projects-header {
-    font-size: 1rem;
+    margin: 1rem;
+    letter-spacing: 2.5px;
+}
+#projects-header h1{
+    /* font-size: 1rem; */
     margin: 6rem 0 0;
 }
 
@@ -480,6 +488,7 @@ nav {
 .project-description p {
     font-size: 1rem;
     margin: 0;
+    color: var(--font-secondary-color);
 }
 
 #contacts {
@@ -496,7 +505,8 @@ nav {
 
 #contacts-header {
     font-size: 1rem;
-    /* margin: 16rem 0 0; */
+    margin-top: 3rem;
+    letter-spacing: 2.5px;
     /* height: fit-content; */
 }
 
@@ -509,13 +519,13 @@ nav {
     /* margin: 1rem; */
     height: fit-content;
     width: 80%;
-    padding: 2.5rem;
+    padding: 0 2rem;
     /* height: fit-content; */
     justify-content: space-evenly;
     border-radius: 37px;
-    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    /* background: linear-gradient(145deg, #cacaca, #f0f0f0);
     box-shadow: 6px 6px 12px #bebebe,
-    -6px -6px 12px #ffffff;
+    -6px -6px 12px #ffffff; */
 }
 
 
@@ -536,7 +546,7 @@ nav {
     flex-direction: row;
     flex-flow: row wrap;
     width: 100%;
-    margin: 1rem 1rem 0;
+    margin: 0;
     /* padding: 1rem; */
 }
 
@@ -548,7 +558,7 @@ nav {
     /* padding: 1rem; */
     margin: 0 1rem 1rem;
     font-family: Poppins, sans-serif;
-    color: var(--font-gray);
+    color: var(--font-secondary-color);
 }
 
 .contact {
@@ -562,6 +572,10 @@ nav {
     -6px -6px 12px #ffffff;
 }
 
+.contact-label {
+    font-size: 1.3rem;
+}
+
 .contact-icon .fa-phone {
     font-size: 2rem;
 }
@@ -570,13 +584,17 @@ nav {
     font-size: 2rem;
 }
 
+.contact-details {
+    color: var(--font-secondary-color);
+}
+
 #socials {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2.5rem;
-    height: 100%;
+    margin-top: 1rem;
+    height: fit-content;
 }
 
 
@@ -613,6 +631,8 @@ nav {
     /* color: rgba(44, 38, 38, 0.8); */
     opacity: 0.8;
     font-size: 2rem;
+    margin: 0;
+    padding: 0;
     color: rgba(0, 0, 0, 0.8);
 }
 
