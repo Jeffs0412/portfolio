@@ -465,7 +465,8 @@ nav {
 
 .project-name .fa-github {
     text-decoration: none;
-    color: rgba(44, 38, 38, 0.8);
+    color: rgba(44, 38, 38, 0.6);
+    color: var(--font-secondary-color);
     display: flex;
     width: max-content;
     align-items: center;
@@ -519,7 +520,7 @@ nav {
     /* margin: 1rem; */
     height: fit-content;
     width: 80%;
-    padding: 0 2rem;
+    padding: 0 10rem;
     /* height: fit-content; */
     justify-content: space-evenly;
     border-radius: 37px;
@@ -537,7 +538,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 1.5rem;
+    margin: 1rem;
     /* background-color: green; */
 }
 
@@ -565,7 +566,7 @@ nav {
     height: 100%;
     width: 100%;
     padding: 2rem;
-    margin: 0 1rem 1rem;
+    margin: 0 2rem 1rem;
     border-radius: 25px;
     background: linear-gradient(145deg, #cacaca, #f0f0f0);
     box-shadow: 6px 6px 12px #a4a4a4,
@@ -573,6 +574,10 @@ nav {
 }
 
 .contact-label {
+    font-size: 1.5rem;
+}
+
+.contact-details p {
     font-size: 1.3rem;
 }
 
@@ -604,6 +609,7 @@ nav {
     justify-content: center;
     height: 40px;
     width: 40px;
+    margin: auto;
     border-radius: 50%;
     background-color: transparent;
     border-radius: 37px;
@@ -653,6 +659,7 @@ nav {
 
 .social .fa-envelope:hover {
     color: #4285F4;
+    opacity: 0.8;
 }
 
 /* #socials div {
