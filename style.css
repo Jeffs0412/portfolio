@@ -314,8 +314,8 @@ nav {
     margin: 0 1rem;
     /* margin-bottom: 1rem; */
     /* height: 280px; */
-    height: 12rem;
-    width: 12rem;
+    height: 10rem;
+    width: 10rem;
     /* box-shadow: 0 1px 10px 0.5px rgb(29, 28, 28);   */
     padding: 1rem;
     border-radius: 35px;
@@ -421,7 +421,7 @@ nav {
 
 .project-link img {
     position: relative;
-    border-radius: 1.5rem;
+    border-radius: 1.1rem;
     height: 330px;
     width: 100%;
     transition-duration: 400ms;
@@ -456,7 +456,7 @@ box-shadow:  0 0 15px #929292,
     width: 100%;
     align-items: center;
     justify-content: flex-start;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     white-space: nowrap;
     margin-top: 0.5rem;
@@ -487,7 +487,7 @@ box-shadow:  0 0 15px #929292,
 }
 
 .project-description p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0;
     color: var(--font-secondary-color);
 }
