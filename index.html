@@ -6,17 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <script src="https://kit.fontawesome.com/b0510e7ddb.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js" integrity="sha512-8Q6Y9XnTbOE+JNvjBQwJ2H8S+UV4uA6hiRykhdtIyDYZ2TprdNmWOUaKdGzOhyr4dCyk287OejbPvwl7lrfqrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js" integrity="sha512-MOCpqoRoisCTwJ8vQQiciZv0qcpROCidek3GTFS6KTk2+y7munJIlKCVkFCYY+p3ErYFXCjmFjnfTTRSC1OHWQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.22.2/babel.min.js" integrity="sha512-rUDTH31VB+8J7AHYHS5T5aYQ/UNsrd9Euwr15gLRdolbyPc565P9UvFfwC38THDVsgASQc2xVpKyGUZ0EpPR+A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
-  <title>Portfolio Website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js" integrity="sha512-MOCpqoRoisCTwJ8vQQiciZv0qcpROCidek3GTFS6KTk2+y7munJIlKCVkFCYY+p3ErYFXCjmFjnfTTRSC1OHWQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.22.2/babel.min.js" integrity="sha512-rUDTH31VB+8J7AHYHS5T5aYQ/UNsrd9Euwr15gLRdolbyPc565P9UvFfwC38THDVsgASQc2xVpKyGUZ0EpPR+A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Portfolio Website</title>
 </head>
 
 <body>
-
     <div id="nav-section">
         <nav>
             <div class="brand-name nav-div">
@@ -29,218 +28,37 @@
                 <a href="#contacts" class="nav-link">CONTACT</a>
             </div>
         </nav>
-        <main>
-            <!-- <hr> -->
     </div>
-    <!-- HOME SECTION  -->
-    <div id="home">
-        <div id="home-content">
-            <div id="home-introduction">
-                <div id="profile-image-mobile">
-                    <img src="images/undraw_source_code_re_wd9m.svg" alt="" width="400px">
-                </div>
-                <div id="profile-name">
-                    <div id="greet">
-                        <p> WELCOME TO MY WEBSITE</p>
-                    </div>
-                    <div id="name">
-                        <p>Hi, I'm Hiro Kurosaki.</p>
-                    </div>
-                </div>
-                <div id="home-slogan">
-                    <p class="line-1 anim-typewriter">A self-taught Web Developer.</p>
-                </div>
-                <div id="home-intro">
-                    <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and
-                        every interaction. I'm not adding motion just to spruce things up, but doing it in ways that.
-                    </p>
-                </div>
-                <div id="home-socials">
-                    <div class="home-social">
-                        <a class="fa-brands fa-linkedin" title="Visit Linkedin Profile"
-                            href="https://www.linkedin.com/in/jefferson-manale/" target="_blank"></a>
-                    </div>
-                    <div class="home-social">
-                        <a class="fa-brands fa-github" title="Visit GitHub Profile" href="https://github.com/Jeffs0412"
-                            target="_blank"></a>
-                    </div>
-                    <div class="home-social">
-                        <a class="fa-sharp fa-solid fa-envelope" title="Email" href="mailto:manalejefferson@gmail.com"
-                            target="_blank">
-                        </a>
-                    </div>
-                </div>
+
+    <main>
+        <!-- HOME SECTION -->
+        <div id="home"></div>
+
+        <!-- ABOUT SECTION -->
+        <div id="about">
+            <div id="skill-header">
+                <h1>SKILLS</h1>
             </div>
-            <div id="profile-image">
-                <img src="images/undraw_source_code_re_wd9m.svg" alt="" width="400px">
+            <div id="skills">
+                <!-- Add content or React components for skills here -->
             </div>
         </div>
-    </div>
-    <!-- ABOUT SECTION -->
-    <div id="about">
-        <div id="skill-header">
-            <h1>SKILLS</h1>
+
+        <!-- PROJECTS SECTION -->
+        <div id="projects">
+            <!-- Add content or React components for projects here -->
         </div>
-        <div id="skills">
-            
+
+        <div id="contacts">
+            <!-- Add content or React components for contacts here -->
         </div>
-    </div>
-    <hr>
-    <!-- PROJECTS SECTION  -->
-    <div id="projects">
-        <div id="projects-header">
-            <h1>PROJECTS</h1>
-        </div>
-        <div id="project-container">
-            <div class="project">
-                <a class="project-link" href="https://jeffs0412.github.io/note-taking-app/" target="_blank">
-                    <img src="images/note-app.jpg" alt="View Source Code">
-                </a>
-                <div class="project-name">
-                    <p class="name">Note Taking App</p>
-                    <a href="https://github.com/Jeffs0412/note-taking-app" title="Visit GitHub Repository"
-                        class="fab fa-github" target="_blank"></a>
-                </div>
-                <div class="project-description">
-                    <p>A Note Taking App built with HTML, CSS, and JavaScript.</p>
-                </div>
-            </div>
-            <div class="project">
-                <a class="project-link" href="https://jeffs0412.github.io/random-quote-generator/" target="_blank">
-                    <img src="images/random-quote.jpg" alt="View Source Code">
-                </a>
-                <div class="project-name">
-                    <p class="name">Random Quote Generator</p>
-                    <a href="https://github.com/Jeffs0412/random-quote-generator" title="Visit GitHub Repository"
-                        class="fab fa-github" target="_blank"></a>
-                </div>
-                <div class="project-description">
-                    <p>A Random Quote Generator that generates random quotes from a third-party API.</p>
-                </div>
-            </div>
-            <div class="project">
-                <a class="project-link" href="">
-                    <img src="https://inbio-react.netlify.app/static/a6d273d704eb2200c0d6fc5c67bc85df/d0f18/portfolio-02.webp"
-                        alt="View Source Code">
-                </a>
-                <div class="project-name">
-                    <p class="name">Project 3 Name</p>
-                    <a href="" class="fab fa-github"></a>
-                </div>
-                <div class="project-description">
-                    <p>Lorem ipsum dolor sit amet, tenetur. Eaque iste qui, ipsasdsaddsadasdasd illum nisi explicabo
-                        cupiditate expedita accusantium. Debitis, fugiat?</p>
-                </div>
-            </div>
-            <div class="project">
-                <a class="project-link" href="">
-                    <img src="images/Screenshot 2023-05-20 215115.jpg" alt="View Source Code">
-                </a>
-                <div class="project-name">
-                    <p class="name">Project 3 Name</p>
-                    <a href="" class="fab fa-github"></a>
-                </div>
-                <div class="project-description">
-                    <p>Lorem ipsum dolor sit amet, tenetur. Eaque iste qui, ipsa illum nisi explicabo cupiditate
-                        expedita accusantium. Debitis, fugiat?</p>
-                </div>
-            </div>
-            <div class="project">
-                <a class="project-link" href="">
-                    <img src="https://inbio-react.netlify.app/static/a6d273d704eb2200c0d6fc5c67bc85df/d0f18/portfolio-02.webp"
-                        alt="View Source Code">
-                </a>
-                <div class="project-name">
-                    <p class="name">Project 3 Name</p>
-                    <a href="" class="fab fa-github"></a>
-                </div>
-                <div class="project-description">
-                    <p>Lorem ipsum dolor sit amet, tenetur. Eaque iste qui, ipsa illum nisi explicabo cupiditate
-                        expedita accusantium. Debitis, fugiat?</p>
-                </div>
-            </div>
-            <div class="project">
-                <a class="project-link" href="">
-                    <img src="https://inbio-react.netlify.app/static/a6d273d704eb2200c0d6fc5c67bc85df/d0f18/portfolio-02.webp"
-                        alt="">
-                </a>
-                <div class="project-name">
-                    <p class="name">Project 3 Name</p>
-                    <a href="" class="fab fa-github"></a>
-                </div>
-                <div class="project-description">
-                    <p>Lorem ipsum dolor sit amet, tenetur. Eaque iste qui, ipsa illum nisi explicabo cupiditate
-                        expedita accusantium. Debitis, fugiat?</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="contacts">
-        <div id="contacts-header">
-            <h1>CONTACT DETAILS</h1>
-        </div>
-        <div id="contacts-container">
-            <div id="contact-description">
-                <p>There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Quas autem facilis eum neque iure ea. Velit non sunt corrupti libero quisquam quas, eius nulla.
-                    Itaque mollitia vitae aliquid dolorem maiores!</p>
-            </div>
-            <div id="contact-container">
-                <div class="contact">
-                    <div class="contact-icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <div class="contact-label">
-                        <p>Contact Phone Number</p>
-                    </div>
-                    <div class="contact-details">
-                        <p>+63 995 468 6995</p>
-                    </div>
-                </div>
-                <div class="contact">
-                    <div class="contact-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="contact-label">
-                        <p>Email</p>
-                    </div>
-                    <div class="contact-details">
-                        <p>manalejefferson@gmail.com</p>
-                    </div>
-                </div>
-                <!-- <div class="contact">
-                    <div class="contact-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="contact-label">
-                        <p>Email</p>
-                    </div>
-                    <div class="contact-details">
-                        <p>Detail 1</p>
-                        <p>Detail 2</p>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-        <footer id="socials">
-            <div class="social">
-                <a class="fa-brands fa-linkedin" title="Visit Linkedin Profile"
-                    href="https://www.linkedin.com/in/jefferson-manale/" target="_blank"></a>
-            </div>
-            <div class="social">
-                <a class="fa-brands fa-github" title="Visit GitHub Profile" href="https://github.com/Jeffs0412"
-                    target="_blank"></a>
-            </div>
-            <div class="social">
-                <a class="fa-sharp fa-solid fa-envelope" title="Email" href="mailto:manalejefferson@gmail.com"
-                    target="_blank">
-                </a>
-            </div>
-        </footer>
-    </div>
     </main>
-    <script type="text/babel" src="script.js"></script>
+
+    <script type="text/babel" src="home.js"></script>
+    <script type="text/babel" src="navigation.js"></script>
+    <script type="text/babel" src="projects.js"></script>
+    <script type="text/babel" src="contacts.js"></script>
+    <script type="text/babel" src="skills.js"></script>
 </body>
 
 </html>

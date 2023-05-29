@@ -48,18 +48,6 @@ main {
     border-bottom: 1px solid black;
 }
 
-#home-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* margin: 0 2rem; */
-}
-
-/* #home-introduction {
-    margin: 5rem;
-} */
-
-
 
 #greet p {
     font-size: 1.5rem;
