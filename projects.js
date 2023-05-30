@@ -13,7 +13,7 @@ const projectsData = [
   },
   {
     image: "random-quote.jpg",
-    link: 'https://github.com/Jeffs0412/random-quote-generator',
+    link: 'https://jeffs0412.github.io/random-quote-generator',
     githubLink: 'https://github.com/Jeffs0412/random-quote-generator',
     description: 'A Random Quote Generator that generates random quotes from a third-party API.',
     name: 'Random Quote Generator'
@@ -27,7 +27,7 @@ const projectsData = [
   },
   {
     image: "random-quote.jpg",
-    link: 'https://github.com/Jeffs0412/random-quote-generator',
+    link: 'https://jeffs0412.github.io/random-quote-generator',
     githubLink: 'https://github.com/Jeffs0412/random-quote-generator',
     description: 'Lorem ipsum dolor sit amet, tenetur. Eaque iste qui, ipsa illum nisi explicabo cupiditate expedita accusantium. Debitis, fugiat?',
     name: 'Project 4 Name'
