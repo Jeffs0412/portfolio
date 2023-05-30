@@ -5,35 +5,35 @@ const { useState, Fragment } = React;
 // Array of project data containing objects with information about each project
 const projectsData = [
   {
-    image: "../images/note-app.jpg",
+    image: "note-app.jpg",
     link: 'https://jeffs0412.github.io/note-taking-app/',
     githubLink: 'https://github.com/Jeffs0412/note-taking-app',
     description: 'A Note Taking App built with HTML, CSS, and JavaScript.',
     name: 'Note Taking App'
   },
   {
-    image: "../images/random-quote.jpg",
+    image: "random-quote.jpg",
     link: 'https://jeffs0412.github.io/random-quote-generator',
     githubLink: 'https://github.com/Jeffs0412/random-quote-generator',
     description: 'A Random Quote Generator that generates random quotes from a third-party API.',
     name: 'Random Quote Generator'
   },
   {
-    image: "../images/note-app.jpg",
+    image: "note-app.jpg",
     link: 'https://jeffs0412.github.io/note-taking-app/',
     githubLink: 'https://github.com/Jeffs0412/note-taking-app',
     description: 'Lorem ipsum dolor sit amet, tenetur. Eaque iste qui, ipsasdsaddsadasdasd illum nisi explicabo cupiditate expedita accusantium. Debitis, fugiat?',
     name: 'Project 3 Name'
   },
   {
-    image: "../images/random-quote.jpg",
+    image: "random-quote.jpg",
     link: 'https://jeffs0412.github.io/random-quote-generator',
     githubLink: 'https://github.com/Jeffs0412/random-quote-generator',
     description: 'Lorem ipsum dolor sit amet, tenetur. Eaque iste qui, ipsa illum nisi explicabo cupiditate expedita accusantium. Debitis, fugiat?',
     name: 'Project 4 Name'
   },
   {
-    image: "../images/note-app.jpg",
+    image: "note-app.jpg",
     link: 'https://jeffs0412.github.io/note-taking-app/',
     githubLink: 'https://jeffs0412.github.io/note-taking-app/',
     description: 'Lorem ipsum dolor sit amet, tenetur. Eaque iste qui, ipsa illum nisi explicabo cupiditate expedita accusantium. Debitis, fugiat?',
@@ -49,7 +49,7 @@ function ProjectContents() {
       {projectsData.map(({ image, link, githubLink, description, name }, index) => (
         <div className="project" key={index}>
           <a className="project-link" href={link} target="_blank">
-            <img src={`../images/${image}`} alt="View Source Code" />
+            <img src={`images/${image}`} alt="View Source Code" />
           </a>
           <div className="project-name">
             <p className="name">{name}</p>
