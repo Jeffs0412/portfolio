@@ -6,7 +6,7 @@ Welcome to my portfolio website! This project showcases my projects and provides
 
 - **Project Showcase**: Browse through a collection of my projects, each with its own description, images, and links to live demos or repositories.
 - **About Me**: Learn more about me, my background and skills.
-- **Contact**: Connect with me through the provided contact form or find links to my social media profiles.
+- **Contact**: Connect with me through my email and the provided links to my social media profiles.
 
 ## Technologies Used
 
