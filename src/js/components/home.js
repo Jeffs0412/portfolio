@@ -102,7 +102,7 @@ function HomeIntroduction() {
 function ProfileImage() {
   return (
     <div id="profile-image">
-      <img src="images/undraw_source_code_re_wd9m.svg" width="400px" />
+      <img src="src/images/undraw_source_code_re_wd9m.svg" width="400px" />
     </div>
   );
 }
