@@ -57,7 +57,7 @@ function Skills() {
 function About() {
   return (
     <Fragment>
-      <div className="skill-header">
+      <div id="skill-header">
         <h1>SKILLS</h1>
       </div>
       <Skills/>

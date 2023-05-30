@@ -51,12 +51,15 @@ function ProjectContents() {
           <a className="project-link" href={link} target="_blank">
             <img src={`src/images/${image}`} alt="View Source Code" />
           </a>
+
+          <div className="project-content">
           <div className="project-name">
             <p className="name">{name}</p>
             <a href={githubLink} title="Visit GitHub Repository" className="fab fa-github" target="_blank"></a>
           </div>
           <div className="project-description">
             <p>{description}</p>
+          </div>
           </div>
         </div>
       ))}
