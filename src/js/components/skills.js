@@ -2,11 +2,6 @@
 const { createRoot } = ReactDOM;
 const { useState } = React;
 
-// Get the element where the skill elements will be rendered
-const skills = document.querySelector("#skills");
-
-// Create a root object to represent the React component tree
-const skillsDiv = createRoot(skills);
 
 // Array of skill images and corresponding names
 const skillsData = [
@@ -59,5 +54,22 @@ function Skills() {
   );
 }
 
+function About() {
+  return (
+    <Fragment>
+      <div className="skill-header">
+        <h1>SKILLS</h1>
+      </div>
+      <Skills/>
+    </Fragment>
+  );
+}
+
+// Get the element where the skill elements will be rendered
+const about = document.querySelector("#about");
+
+// Create a root object to represent the React component tree
+const aboutDiv = createRoot(about);
+
 // Render the Skills component within the skills element
-skillsDiv.render(<Skills />);
+aboutDiv.render(<About />);

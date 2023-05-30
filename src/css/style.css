@@ -29,6 +29,7 @@ body {
 main {
     box-sizing: border-box;
     /* margin: 0 1rem; */
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +41,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: auto;
+    width: 100%;
     /* color: var(--font-gray); */
     margin: 1rem 5rem 5rem;
     padding: 0 5rem;
@@ -267,7 +268,7 @@ nav {
     /* justify-content: space-between; */
     margin: 5rem;
     padding: 5rem;
-    height: fit-content;
+    /* height: 100%; */
     width: fit-content;
     /* background-color: green; */
     border-bottom: 1px solid black;
@@ -287,6 +288,7 @@ nav {
     flex-flow: row wrap;
     justify-content: center;
     /* padding: 5rem; */
+    /* background-color: green; */
     width: 100%;
 }
 

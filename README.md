@@ -15,8 +15,22 @@ Welcome to my portfolio website! This project showcases my projects and provides
 - JavaScript: Implemented interactive features and functionality.
 - React: Used as a JavaScript library for building reusable UI components and managing the website's state.
 
+## How It's Built
+
+The project is built using functional components in React. Each component represents a specific section or feature of the website and is located in separate JavaScript files. Here's a brief overview of the components and their corresponding files:
+
+- **App**: The root component that manages the overall structure and routing of the website.
+- **Home**: Displays the introductory section of the website. (Located in `home.js`)
+- **Projects**: Shows a collection of projects with their details and links. (Located in `projects.js`)
+- **About**: Provides information about me and my skills. (Located in `about.js`)
+- **Contact**: Displays contact details for users to get in touch. (Located in `contact.js`)
+
+The project follows modern React best practices, including component-based architecture and reusable UI components.
+
 ## Live Demo
-Checkout the live demo of the project here: [Live Demo Link](https://jeffs0412.github.io/portfolio/)
+
+Check out the live demo of the project: https://jeffs0412.github.io/portfolio/.
+
 ## Contact
 
 You can reach out to me through the following channels:
