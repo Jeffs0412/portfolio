@@ -49,7 +49,7 @@ function ProjectContents() {
       {projectsData.map(({ image, link, githubLink, description, name }, index) => (
         <div className="project" key={index}>
           <a className="project-link" href={link} target="_blank">
-            <img src={`images/${image}`} alt="View Source Code" />
+            <img src={`src/images/${image}`} alt="View Source Code" />
           </a>
           <div className="project-name">
             <p className="name">{name}</p>
