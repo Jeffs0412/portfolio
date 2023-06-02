@@ -464,6 +464,7 @@ box-shadow:  0 0 15px #929292,
 
 .project-description {
     align-self: flex-start;
+    width: 100%;
 }
 
 .project-description p {
