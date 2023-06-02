@@ -2,6 +2,10 @@
 
 Welcome to my portfolio website! This project showcases my projects and provides information about me. It is built using HTML, CSS, JavaScript, and React.
 
+## Live Demo
+
+Check out the live demo of the project: https://jeffs0412.github.io/portfolio/.
+
 ## Features
 
 - **Project Showcase**: Browse through a collection of my projects, each with its own description, images, and links to live demos or repositories.
@@ -19,7 +23,6 @@ Welcome to my portfolio website! This project showcases my projects and provides
 
 The project is built using functional components in React. Each component represents a specific section or feature of the website and is located in separate JavaScript files. Here's a brief overview of the components and their corresponding files:
 
-- **App**: The root component that manages the overall structure and routing of the website.
 - **Home**: Displays the introductory section of the website. (Located in `home.js`)
 - **Projects**: Shows a collection of projects with their details and links. (Located in `projects.js`)
 - **About**: Provides information about me and my skills. (Located in `about.js`)
@@ -27,9 +30,6 @@ The project is built using functional components in React. Each component repres
 
 The project follows modern React best practices, including component-based architecture and reusable UI components.
 
-## Live Demo
-
-Check out the live demo of the project: https://jeffs0412.github.io/portfolio/.
 
 ## Contact
 
