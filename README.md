@@ -1,10 +1,11 @@
 # My Portfolio Website
 
-Welcome to my portfolio website! This project showcases my projects and provides information about me. It is built using HTML, CSS, JavaScript, and React.
-
 ## Live Demo
 
 Check out the live demo of the project: https://jeffs0412.github.io/portfolio/.
+
+Welcome to my portfolio website! This project showcases my projects and provides information about me. It is built using HTML, CSS, JavaScript, and React.
+
 
 ## Features
 
