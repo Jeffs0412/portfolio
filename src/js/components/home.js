@@ -5,7 +5,7 @@ const { useState, Fragment } = React;
 function ProfileImageMobile() {
   return (
     <div id="profile-image-mobile">
-      <img src="images/undraw_source_code_re_wd9m.svg" alt="" width="400px" />
+      <img src="src/images/undraw_source_code_re_wd9m.svg" alt="" width="400px" />
     </div>
   );
 }
