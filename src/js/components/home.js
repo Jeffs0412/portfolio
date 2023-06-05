@@ -39,7 +39,7 @@ function SloganIntro() {
     {
       homeID: "intro",
       homeText:
-        "I use animation as a third dimension by which to simplify experiences and guiding through each and every interaction. I'm not adding motion just to spruce things up, but doing it in ways that.",
+        "Passionate Frontend Developer Building with HTML, CSS, JavaScript, and React. Feel free to explore my portfolio to see examples of my work and projects. Let's build exceptional digital experiences together.",
       classes: null,
     },
   ];
