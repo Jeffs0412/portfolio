@@ -65,7 +65,7 @@ main {
 
 #home-slogan .line-1 {
     position: relative;
-    width: 14.75em;
+    width: fit-content;
     border-right: 2px solid rgba(255, 255, 255, .75);
     font-size: 2rem;
     font-weight: bold;
@@ -74,11 +74,12 @@ main {
     overflow: hidden;
     margin-top: 0;
     margin-bottom: 0;
+    transform: translateY(-50%);
 }
 
 .anim-typewriter {
-    animation: typewriter 2s steps(44) 1s 1 normal both,
-        blinkTextCursor 600ms steps(44) infinite normal;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
 }
 
 @keyframes typewriter {
@@ -87,16 +88,16 @@ main {
     }
 
     to {
-        width: 14.90em;
+        width: 39.5rem;
     }
 }
 
 @keyframes blinkTextCursor {
-    from {
+    from, 49% {
         border-right-color: rgba(48, 45, 41, 0.75);
     }
 
-    to {
+    50%, to {
         border-right-color: transparent;
     }
 }
