@@ -14,7 +14,7 @@ function ProfileImageMobile() {
 function Greet() {
   const greetData = [
     { id: "greet", text: "WELCOME TO MY WEBSITE" },
-    { id: "name", text: "Hi, I'm Hiro Kurosaki." },
+    { id: "name", text: "Hi, I'm Jefferson Mañale." },
   ];
   
   return (
