@@ -5,12 +5,12 @@ const { useState, Fragment } = React; // Importing the useState hook and Fragmen
 // Object containing contact information
 const contactData = [
   {
-    icon: "phone",
+    src: "src/images/icons8-phone-96.png",
     label: "Contact Phone Number",
     details: "+63 995 468 6995",
   },
   {
-    icon: "envelope",
+    src: "src/images/icons8-email-96.png",
     label: "Email",
     details: "manalejefferson@gmail.com",
   },
@@ -20,10 +20,10 @@ const contactData = [
 function ContactsContents() {
   return (
     <div id="contact-container">
-      {contactData.map(({icon, label, details}, index) => (
+      {contactData.map(({src, label, details, }, index) => (
         <div className="contact" key={index}>
           <div className="contact-icon">
-            <i className={`fas fa-${icon}`} />
+            <img src={src} />
           </div>
           <div className="contact-label">
             <p>{label}</p>
@@ -84,10 +84,7 @@ function Contacts() {
       <div id="contacts-container">
         <div id="contact-description">
           <p>
-            There are many variations of passages of Lorem Ipsum available,
-            but the majority have suffered alteration. Lorem ipsum dolor sit
-            amet consectetur, adipisicing elit. Quas autem facilis eum neque
-            iure ea.
+          You can reach out to me through the following channels and contact details:
           </p>
         </div>
         <ContactsContents />
