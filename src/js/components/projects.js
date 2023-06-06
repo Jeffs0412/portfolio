@@ -15,29 +15,29 @@ const projectsData = [
     image: "random-quote.jpg",
     link: 'https://jeffs0412.github.io/random-quote-generator',
     githubLink: 'https://github.com/Jeffs0412/random-quote-generator',
-    description: 'A Random Quote Generator that generates random quotes from a third-party API.',
+    description: 'A Random Quote Generator that generates random quotes from a third-party API. It is built using HTML, CSS, and JavaScript.',
     name: 'Random Quote Generator'
   },
   {
-    image: "note-app.jpg",
-    link: 'https://jeffs0412.github.io/note-taking-app/',
-    githubLink: 'https://github.com/Jeffs0412/note-taking-app',
-    description: 'Lorem ipsum dolor sit amet, tenetur. Eaque iste qui, ipsasdsaddsadasdasd illum nisi explicabo cupiditate expedita accusantium. Debitis, fugiat?',
-    name: 'Project 3 Name'
+    image: "coffee-info.png",
+    link: 'https://jeffs0412.github.io/coffee-info/',
+    githubLink: 'https://github.com/Jeffs0412/coffee-info',
+    description: 'This single-page website provides information about different coffee roasting levels and coffee-producing countries. It is built using HTML, CSS, JavaScript and React.',
+    name: 'The Best Coffee - By Region'
   },
   {
-    image: "random-quote.jpg",
-    link: 'https://jeffs0412.github.io/random-quote-generator',
-    githubLink: 'https://github.com/Jeffs0412/random-quote-generator',
+    image: "picture-picture1.png",
+    link: 'https://jeffs0412.github.io/picture-in-picture/',
+    githubLink: 'https://github.com/Jeffs0412/picture-in-picture',
     description: 'Lorem ipsum dolor sit amet, tenetur. Eaque iste qui, ipsa illum nisi explicabo cupiditate expedita accusantium. Debitis, fugiat?',
-    name: 'Project 4 Name'
+    name: 'Picture in Picture'
   },
   {
-    image: "note-app.jpg",
-    link: 'https://jeffs0412.github.io/note-taking-app/',
-    githubLink: 'https://jeffs0412.github.io/note-taking-app/',
+    image: "database (2).png",
+    link: 'https://github.com/Jeffs0412/worldcup_database',
+    githubLink: 'https://github.com/Jeffs0412/worldcup_database',
     description: 'Lorem ipsum dolor sit amet, tenetur. Eaque iste qui, ipsa illum nisi explicabo cupiditate expedita accusantium. Debitis, fugiat?',
-    name: 'Project 5 Name'
+    name: 'Worldcup Database'
   }
 ];
 
