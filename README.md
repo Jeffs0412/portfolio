@@ -16,7 +16,7 @@ Welcome to my portfolio website! This project showcases my projects and provides
 - HTML: Used for structuring the website's content.
 - CSS: Responsible for styling the website and making it visually appealing.
 - JavaScript: Implemented interactive features and functionality.
-- React: Used as a JavaScript library for building reusable UI components and managing the website's state.
+- React: Used as a JavaScript library for building reusable UI components.
 
 ## How It's Built
 
@@ -34,7 +34,7 @@ The project follows modern React best practices, including component-based archi
 
 You can reach out to me through the following channels:
 - Email: manalejefferson@gmail.com
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/jefferson-manale/)
+- LinkedIn: https://www.linkedin.com/in/jefferson-manale/
 
 Feel free to explore the website and get in touch!
 
