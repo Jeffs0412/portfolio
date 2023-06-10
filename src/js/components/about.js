@@ -81,11 +81,15 @@ function AboutMe() {
           {index % 2 === 0 ? (
             <>
               <img className="about-image" src={src} />
-              <p className="about-text">{text}</p>
+              <div className="about-text">
+              <p >{text}</p>
+              </div>
             </>
           ) : (
             <>
-              <p className="about-text">{text}</p>
+            <div className="about-text">
+              <p>{text}</p>
+            </div>
               <img className="about-image" src={src} />
             </>
           )}
