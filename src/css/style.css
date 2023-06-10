@@ -715,7 +715,7 @@ box-shadow:  0 0 15px #929292,
     opacity: 0.8;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1550px) {
     .about-me {
         width: 100%;
     }
@@ -729,6 +729,9 @@ box-shadow:  0 0 15px #929292,
     .about-text p {
         font-size: 1.1rem;
         /* line-height: 1.5rem; */
+    }
+    #contacts {
+        padding: 6.5rem 0;
     }
 }
 
@@ -886,13 +889,7 @@ box-shadow:  0 0 15px #929292,
         padding: 0 2rem;
     }
 
-    #contacts {
-        padding: 0;
-    }
-
-    #contact-container {
-        width: 100%;
-    }
+ 
 
 }
 
@@ -1141,8 +1138,14 @@ box-shadow:  0 0 15px #929292,
 
     /* CONTACTS SECTION  */
     #contacts {
+        padding: 0;
         height: 100%;
         margin: 2rem;
+    }
+
+
+    #contact-container {
+        width: 100%;
     }
     
     #contacts-header h1{
