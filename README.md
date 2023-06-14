@@ -4,6 +4,24 @@
 
 Welcome to my portfolio website! This project showcases my projects and provides information about me. It is built using HTML, CSS, JavaScript, and React.
 
+## Installation
+
+To use the Note Taking App locally, you can follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Jeffs0412/portfolio.git
+   ```
+2. Navigate to the project directory:
+    ```bash
+    cd portfolio
+    ```
+    
+3. You can view the React components in `js/components` directory.
+Here, you will find the individual JavaScript files corresponding to each React component used in the portfolio website.
+For example, if you want to view the code for the `Home` component, open the `home.js` file.
+Similarly, you can explore the other components by opening their respective files. 
 
 ## Features
 
