@@ -17,8 +17,8 @@ To use the Note Taking App locally, you can follow these steps:
     ```bash
     cd portfolio
     ```
-    
-3. You can view the React components in `js/components` directory.
+
+3. You can view the React components in `src/js/components` directory.
 Here, you will find the individual JavaScript files corresponding to each React component used in the portfolio website.
 For example, if you want to view the code for the `Home` component, open the `home.js` file.
 Similarly, you can explore the other components by opening their respective files. 
