@@ -93,7 +93,7 @@ main {
 }
 
 .anim-typewriter {
-    animation: typewriter 4s steps(44) 1s 1 normal both,
+    animation: typewriter 2s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 
@@ -103,7 +103,7 @@ main {
     }
 
     to {
-        width: 43.3rem;
+        width: 33.3rem;
     }
 }
 
@@ -214,8 +214,11 @@ nav {
     width: 100%;
 }
 
+.menu-div {
+    display: none;
+}
 
-#nav-section {
+.nav-section {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -286,7 +289,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     height: fit-content;
     width: 85%;
@@ -306,8 +309,8 @@ nav {
 
 .about-image {
     height: 100%;
-    width: fit-content;
-    margin: 0 4rem;
+    width: 200px;
+    margin: 0 3rem;
     padding: 0;
 }
 
@@ -353,7 +356,7 @@ nav {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 10rem;
     margin-bottom: 0;
 }
 
@@ -742,6 +745,7 @@ box-shadow:  0 0 15px #929292,
         justify-content: center;
         margin: 0;
         padding: 0;
+        width: auto;
         justify-content: space-around;
         box-sizing: border-box;
         background-color: var(--bg-color);
@@ -889,8 +893,6 @@ box-shadow:  0 0 15px #929292,
         padding: 0 2rem;
     }
 
- 
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -916,15 +918,9 @@ box-shadow:  0 0 15px #929292,
         justify-content: center;
         padding: 0;
         margin: 0;
-        width: 100%;
-        justify-content: space-around;
-        box-sizing: border-box;
+        width: auto;
+        justify-content: center;
         background-color: var(--bg-color);
-    }
-
-    main {
-        padding: 0;
-        
     }
 
     #profile-image {
@@ -946,20 +942,21 @@ box-shadow:  0 0 15px #929292,
         width: 100%;
         
     }
-
+    
     #home {
+        flex-direction: column;
         margin: 1rem 0;
         height: auto;
         width: 100%;
-        padding: 5.5rem 0.5rem;
+        padding: 5.5rem 2rem;
     }
-
+    
     #home-content {
         padding: 1rem;
     }
-
+    
     #home-introduction {
-        margin: 0.2rem;
+        margin: 0;
         letter-spacing: 1px;
         word-spacing: 1.5px;
     }
@@ -968,12 +965,12 @@ box-shadow:  0 0 15px #929292,
         font-size: 0.8rem;
         margin-bottom: 0;
     }
-
+    
     #name p{
         font-size: 1.5rem;
         margin: 0;
     }
-
+    
     #home-slogan .line-1{
         font-size: 1rem;
         margin-top: 0.75rem;
@@ -985,46 +982,77 @@ box-shadow:  0 0 15px #929292,
         }
     
         to {
-            width: 22.3rem;
+            width: 17.2rem;
         }
     }
 
     #home-intro p{
         font-size: 0.9rem;
     }
-
+    
     nav {
         width: 100%;
         height: 0.5rem;
-        padding: 0 2rem;
-        margin: 0 1rem;
-        justify-content: center;
+        padding: 0;
+        margin: 0 0.5rem;
     }
-
-    #nav-section {
+    
+    .nav-section {
         height: 75px;
         width: 100%;
+        justify-content: center;
     }
 
     .nav-link {
         width: fit-content;
         margin: 0 0.5rem;
     }
-
-    .brand-name {
-       display: none;
+    
+    .brand-name-hide {
+        display: none;
     }
-
-    #nav-links {
-        width: fit-content;
-    }
-
-    #nav-links a {
+    
+    .nav-link {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        width: 100%;
         font-size: 0.8rem;
+    }
+
+    .nav-section-menu {
+        height: 40%;
+        width: 100%;
+    }
+
+    #nav-links {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        margin-top: 120px;
+        font-size: 2rem;
+        background-color: #bebebe;
+        width: 100%;
+        border-radius: 20px;
+        padding-right: 1rem;
+    }
+
+    .nav-link {
+        float: right;
+        flex-direction: column;
+        font-size: 2rem;
+        margin: 10px 0;
+    }
+
+    .fa-bars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        cursor: pointer;
+        top: 1rem;
+        right: 2rem;
+        height: fit-content;
+        font-size: 2rem;
     }
 
     /* ABOUT SECTION  */

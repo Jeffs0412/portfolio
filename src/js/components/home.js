@@ -33,13 +33,13 @@ function SloganIntro() {
   const homeData = [
     {
       homeID: "slogan",
-      homeText: "A self-taught Frontend Web Developer.",
+      homeText: "A Self-Taught Web Developer.",
       classes: "line-1 anim-typewriter",
     },
     {
       homeID: "intro",
       homeText:
-        "Passionate Frontend Web Developer Building with HTML, CSS, JavaScript, and React. Feel free to explore my portfolio to see examples of my work and projects. Let's build exceptional digital experiences together.",
+        "Web Developer Building with HTML, CSS, JavaScript, and React. Feel free to explore my portfolio to see examples of my work and projects. Let's build exceptional digital experiences together.",
       classes: null,
     },
   ];
