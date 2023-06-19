@@ -8,7 +8,7 @@ const projectsData = [
     image: "note-app.jpg",
     link: 'https://jeffs0412.github.io/note-taking-app/',
     githubLink: 'https://github.com/Jeffs0412/note-taking-app',
-    description: 'A Note Taking App built with HTML, CSS, JavaScript, and React.',
+    description: 'A Note Taking App that allows you to create, edit, and delete notes. This project is built using HTML, CSS, JavaScript, and React.',
     name: 'Note Taking App'
   },
   {
