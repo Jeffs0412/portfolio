@@ -25,13 +25,14 @@ body {
 
 main {
     box-sizing: border-box;
-    padding: 2rem;
+    padding: 0;
     width: 100%;
     /* height: auto; */
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* background-color: green; */
 }
 
 #home {
@@ -923,9 +924,11 @@ box-shadow:  0 0 15px #929292,
         background-color: var(--bg-color);
     }
 
-    /* main {
+    main {
         padding: 0;
-    } */
+        width: 100%;
+        margin: 0;
+    }
 
     #profile-image {
         display: none;
@@ -952,11 +955,11 @@ box-shadow:  0 0 15px #929292,
         margin: 1rem 0;
         height: auto;
         width: 100%;
-        padding: 5.5rem 2rem;
+        padding: 5.5rem 0;
     }
     
     #home-content {
-        padding: 1rem;
+        padding: 0;
     }
     
     #home-introduction {
@@ -1006,6 +1009,7 @@ box-shadow:  0 0 15px #929292,
         width: 100%;
         justify-content: center;
         align-items: center;
+        background-color: green;
     }
 
     .nav-link {
@@ -1048,6 +1052,8 @@ box-shadow:  0 0 15px #929292,
     #about-me {
         margin: 0 0.5rem;
         width: 100%;
+        height: 100%;
+        padding: 0;
     }
 
     .about-info {
@@ -1063,8 +1069,8 @@ box-shadow:  0 0 15px #929292,
     .about-text {
         line-height: 0.8rem;
         border-radius: 10px;
-        box-shadow: 6px 6px 20px #a6a6a6,
-        -6px -6px 20px #ffffff;
+        box-shadow: 6px 6px 8px #a6a6a6,
+        -6px -6px 8px #ffffff;
         width: 100%;
         padding: 0 0.8rem;
     }
