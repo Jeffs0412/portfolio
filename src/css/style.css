@@ -918,14 +918,14 @@ box-shadow:  0 0 15px #929292,
         justify-content: center;
         padding: 0;
         margin: 0;
-        width: auto;
+        width: 100%;
         justify-content: center;
         background-color: var(--bg-color);
     }
 
-    main {
+    /* main {
         padding: 0;
-    }
+    } */
 
     #profile-image {
         display: none;
