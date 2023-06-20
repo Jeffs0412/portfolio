@@ -47,12 +47,12 @@ function AboutMe() {
 
     {
       src: "src/images/undraw_research.svg",
-      text: "Learning web development technologies has been a challenge for me, yet I learned to enjoy it. I have acquired the relevant knowledge and skills from different free online resources such as YouTube, FreeCodeCamp, Codecademy, Udemy, Coursera, and documentations of different web technologies."
+      text: "Learning web development technologies has been a challenge for me, yet I learned to enjoy it. I have acquired the relevant knowledge and skills from different free online resources such as YouTube, freeCodeCamp, Codecademy, Udemy, Coursera, and documentations of different web technologies."
     },
 
     {
       src: "src/images/undraw_build.svg",
-      text: "To enhance and use my skills into practice, I have completed several simple projects that have challenged me to think critically, problem-solve, and apply my learning effectively."
+      text: "To enhance and use my skills into practice, I have completed several simple projects that have challenged me to think critically, problem-solve, and apply my learnings effectively."
     },
 
     {
