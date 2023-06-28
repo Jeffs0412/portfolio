@@ -3,48 +3,17 @@ const { createRoot } = ReactDOM;
 const { useState } = React;
 
 
-// Array of skill images and corresponding names
-const skillsData = [
-  {
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg",
-    name: "HTML"
-  },
-  {
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
-    name: "CSS"
-  },
-  {
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    name: "JavaScript"
-  },
-  {
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-    name: "React"
-  },
-  {
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg",
-    name: "PostgreSQL"
-  },
-  {
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
-    name: "Bash"
-  },
-  {
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-    name: "Git"
-  }
-];
 
 
 
 function AboutMe() {
-
+  
   const infoData = [
     {
       src: "src/images/undraw_programming.svg",
       text: "I am a passionate and self-taught web developer who want to create engaging and user-friendly digital experiences. As a self-taught web developer, I have been on a transformative journey, acquiring relevant skills in the field of web development such as HTML, CSS, JavaScript, React, PHP and relational databases."
     },
-
+    
     {
       src: "src/images/undraw_research.svg",
       text: "Learning web development technologies has been a challenge for me, yet I learned to enjoy it. I have acquired the relevant knowledge and skills from different free online resources such as YouTube, freeCodeCamp, Codecademy, Udemy, Coursera, and documentations of different web technologies."
@@ -54,18 +23,18 @@ function AboutMe() {
       src: "src/images/undraw_build.svg",
       text: "To enhance and use my skills into practice, I have completed several simple projects that have challenged me to think critically, problem-solve, and apply my learnings effectively."
     },
-
+    
     {
       src: "src/images/undraw_tech.svg",
       text: "As a self-taught web developer, I am committed to continuous learning and staying up-to-date the latest technologies that will improve my skills and increase my productivity."
     },
-
+    
     {
       src: "src/images/undraw_collaboration.svg",
       text: "My ultimate goal is to collaborate with clients and employers who appreciate innovative thinking, creativity, and efficient development practices."
     }
   ];
-
+  
   return (
     <div id="about-me">
        <div id="about-header">
@@ -87,6 +56,47 @@ function AboutMe() {
 
 // React component that renders the skills section
 function Skills() {
+
+  // Array of skill images and corresponding names
+  const skillsData = [
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg",
+      name: "HTML"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
+      name: "CSS"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      name: "JavaScript"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      name: "React"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      name: "Java"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg",
+      name: "C#"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg",
+      name: "PostgreSQL"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+      name: "Bash"
+    },
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      name: "Git"
+    }
+  ];
+
   return (
     <div id="skills">
       {/* Iterate over the skillsData array and generate skill elements */}
