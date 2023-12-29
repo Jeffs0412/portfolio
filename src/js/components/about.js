@@ -63,34 +63,42 @@ function Skills() {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg",
       name: "HTML"
     },
+    
     {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
       name: "CSS"
     },
+    
     {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       name: "JavaScript"
     },
+    
     {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      name: "React"
+      name: "React.js"
     },
-    {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-      name: "Java"
-    },
+    
     {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg",
       name: "C#"
     },
+    
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg",
-      name: "PostgreSQL"
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
+      name: ".NET Core"
     },
+    
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
-      name: "Bash"
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      name: "MySQL"
     },
+
+    {
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg",
+      name: "Visual Studio"
+    },
+    
     {
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       name: "Git"
