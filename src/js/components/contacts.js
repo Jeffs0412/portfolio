@@ -7,7 +7,7 @@ const contactData = [
   {
     src: "src/images/icons8-phone-96.png",
     label: "Contact Phone Number",
-    details: "+63 995 468 6995",
+    details: "+63 995 830 5719",
   },
   {
     src: "src/images/icons8-email-96.png",

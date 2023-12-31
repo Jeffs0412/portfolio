@@ -2,48 +2,50 @@
 const { createRoot } = ReactDOM;
 const { useState } = React;
 
-
-
-
-
 function AboutMe() {
   
   const infoData = [
     {
-      src: "src/images/undraw_programming.svg",
-      text: "I am a passionate and self-taught web developer who want to create engaging and user-friendly digital experiences. As a self-taught web developer, I have been on a transformative journey, acquiring relevant skills in the field of web development such as HTML, CSS, JavaScript, React, PHP and relational databases."
+      src: "report.svg",
+      text: "Implemented a dynamic web-based report generation feature that enable authorized users to generate filtered reports based on real-time data to enhance their ability to make data-driven decisions."
     },
     
     {
-      src: "src/images/undraw_research.svg",
-      text: "Learning web development technologies has been a challenge for me, yet I learned to enjoy it. I have acquired the relevant knowledge and skills from different free online resources such as YouTube, freeCodeCamp, Codecademy, Udemy, Coursera, and documentations of different web technologies."
+      src: "programmer.svg",
+      text: "Utilized MVC architecture in ASP.NET Core, creating efficient Models, Views, and Controllers. Incorporated best practices for code efficiency, readability, and maintainability and leveraged LINQ and stored procedures for optimized data processing."
     },
 
     {
-      src: "src/images/undraw_build.svg",
-      text: "To enhance and use my skills into practice, I have completed several simple projects that have challenged me to think critically, problem-solve, and apply my learnings effectively."
+      src: "undraw_build.svg",
+      text: "Enhanced the user interface through design improvements and implementation of dynamic web pages, utilizing HTML, CSS, JavaScript, jQuery, and Bootstrap. Employed third-party libraries for optimized data presentation, significantly enhancing user experience and website usability."
     },
     
     {
-      src: "src/images/undraw_tech.svg",
-      text: "As a self-taught web developer, I am committed to continuous learning and staying up-to-date the latest technologies that will improve my skills and increase my productivity."
+      src: "development.svg",
+      text: "Played a pivotal role in troubleshooting and resolving bugs, contributing to the overall improvement of website functionality ensuring alignment with the users' needs."
     },
     
     {
-      src: "src/images/undraw_collaboration.svg",
-      text: "My ultimate goal is to collaborate with clients and employers who appreciate innovative thinking, creativity, and efficient development practices."
+      src: "debug.svg",
+      text: "Conducted rigorous website testing to identify errors, fix bugs and implement potential improvements."
     }
   ];
+
+  const src_path = "src/images";
   
   return (
     <div id="about-me">
        <div id="about-header">
-        <h1>ABOUT ME</h1>
+        <h1>EXPERIENCE</h1>
+        <div id="job">
+          <h2>JUNIOR PROGRAMMER</h2>
+          <h3>(August 2023 - Present)</h3>
+        </div>
       </div>
       {infoData.map(({src, text}, index) => (
         <div className="about-info" key={`about-info-${index}`} >
             <>
-              <img className="about-image" src={src} />
+              <img className="about-image" src={`${src_path}/${src}`} />
               <div className="about-text">
                 <p >{text}</p>
               </div>
@@ -60,50 +62,52 @@ function Skills() {
   // Array of skill images and corresponding names
   const skillsData = [
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg",
+      image: "html5/html5-plain.svg",
       name: "HTML"
     },
     
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
+      image: "css3/css3-plain.svg",
       name: "CSS"
     },
     
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      image: "javascript/javascript-original.svg",
       name: "JavaScript"
     },
     
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      image: "react/react-original.svg",
       name: "React.js"
     },
     
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg",
+      image: "csharp/csharp-plain.svg",
       name: "C#"
     },
     
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg",
-      name: ".NET Core"
+      image: "dotnetcore/dotnetcore-original.svg",
+      name: "ASP.NET Core"
     },
     
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      image: "mysql/mysql-original.svg",
       name: "MySQL"
     },
 
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg",
+      image: "visualstudio/visualstudio-plain.svg",
       name: "Visual Studio"
     },
     
     {
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      image: "git/git-original.svg",
       name: "Git"
     }
   ];
+
+  const imageLink = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons";
 
   return (
     <div id="skills">
@@ -112,7 +116,7 @@ function Skills() {
         <div key={index} className="skill">
           <div className="skill-content">
             <div className="skill-icon">
-              <img src={image} alt={name} />
+              <img src={`${imageLink}/${image}`} alt={name} />
             </div>
             <p className="skill-name">{name}</p>
           </div>
@@ -127,7 +131,7 @@ function About() {
     <Fragment>
       <AboutMe/>
       <Skills/>
-      <h3 id="about-footer">Feel free to explore my portfolio and projects to see examples of my work.</h3>
+      {/* <h3 id="about-footer">Feel free to explore my portfolio and projects to see examples of my work.</h3> */}
     </Fragment>
   );
 }

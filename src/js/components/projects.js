@@ -11,33 +11,13 @@ const projectsData = [
     description: 'A Note Taking App that allows you to create, edit, and delete notes. This project is built using HTML, CSS, JavaScript, and React.',
     name: 'Note Taking App'
   },
+  
   {
     image: "random-quote.jpg",
     link: 'https://jeffs0412.github.io/random-quote-generator',
     githubLink: 'https://github.com/Jeffs0412/random-quote-generator',
     description: 'A Random Quote Generator that generates random quotes from a third-party API. It is built using HTML, CSS, and JavaScript.',
     name: 'Random Quote Generator'
-  },
-  {
-    image: "coffee-info.png",
-    link: 'https://jeffs0412.github.io/coffee-info/',
-    githubLink: 'https://github.com/Jeffs0412/coffee-info',
-    description: 'This single-page website provides information about different coffee roasting levels and coffee-producing countries. It is built using HTML, CSS, JavaScript and React.',
-    name: 'The Best Coffee - By Region'
-  },
-  {
-    image: "picture-picture1.png",
-    link: 'https://jeffs0412.github.io/picture-in-picture/',
-    githubLink: 'https://github.com/Jeffs0412/picture-in-picture',
-    description: 'This interactive web application that allows you  to display a selected media stream within a resizable Picture-in-Picture window. It is built using HTML, CSS, and JavaScript.',
-    name: 'Picture in Picture'
-  },
-  {
-    image: "database (2).png",
-    link: 'https://github.com/Jeffs0412/worldcup_database',
-    githubLink: 'https://github.com/Jeffs0412/worldcup_database',
-    description: 'A World Cup database implemented using PostgreSQL and bash scripts, storing information about games played in various tournaments.',
-    name: 'Worldcup Database'
   }
 ];
 
