@@ -6,22 +6,24 @@ Welcome to my portfolio website! This project showcases my projects and provides
 
 ## Installation
 
-To use the Note Taking App locally, you can follow these steps:
+To use the Portfolio Website locally, you can follow these steps:
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/Jeffs0412/portfolio.git
    ```
+
 2. Navigate to the project directory:
-    ```bash
-    cd portfolio
-    ```
+
+   ```bash
+   cd portfolio
+   ```
 
 3. You can view the React components in `src/js/components` directory.
-Here, you will find the individual JavaScript files corresponding to each React component used in the portfolio website.
-For example, if you want to view the code for the `Home` component, open the `home.js` file.
-Similarly, you can explore the other components by opening their respective files. 
+   Here, you will find the individual JavaScript files corresponding to each React component used in the portfolio website.
+   For example, if you want to view the code for the `Home` component, open the `home.js` file.
+   Similarly, you can explore the other components by opening their respective files.
 
 ## Features
 
@@ -47,14 +49,13 @@ The project is built using functional components in React. Each component repres
 
 The project follows modern React best practices, including component-based architecture and reusable UI components.
 
-
 ## Contact
 
 You can reach out to me through the following channels:
+
 - Email: manalejefferson@gmail.com
 - LinkedIn: https://www.linkedin.com/in/jefferson-manale/
 
 Feel free to explore the website and get in touch!
 
 ---
-
